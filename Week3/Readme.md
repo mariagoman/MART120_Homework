@@ -1,1 +1,1 @@
-This is my week 3 homework, where I have my scratch project uploaded.
+This is my week 3 homework, where I have my scratch project uploaded. I struggled really hard with this one. I tried to add a variable and make the sprites spin as they were being teleported and I still haven't figured out how to do it :( Overall, I think the story is pretty cute. 
