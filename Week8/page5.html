@@ -1,0 +1,56 @@
+<html>
+    <title>My Favorite Movies</title>
+    <head>
+        <!--Not going to use this yet-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script>
+            function getData()
+            {
+                var name = document.getElementById("name").value;
+                var phone = document.getElementById("email").value;
+    
+                
+    
+                window.alert("your info: " + name + email);
+            }
+            function checkForm(form)
+            {
+                if(!form.terms.checked) {
+                alert("Please indicate that you accept the Terms and Conditions");
+                form.terms.focus();
+                return false;
+                }
+            return true;
+            }
+
+        </script>
+    </head>
+    <body style="background-color: #d8d5f6;">
+        <h1 class="titleText">Contact Us</h1>
+
+        <br>
+
+            <input type="text" value = " " id="name">name<br>
+            <input type="text" value=" " id="email">email<br>
+        </form>
+
+        <form onsubmit="return checkForm(this);">
+            <p><input type="checkbox" name="terms"> I accept the <u>Terms and Conditions</u></p>
+        </form>
+            
+        <br>
+
+        <button id="btnSubmit" class="btn btn-primary" onClick="getData();">Submit</button>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a href="index.html">Go Home</a>
+
+       
+    </body>
+</html>
